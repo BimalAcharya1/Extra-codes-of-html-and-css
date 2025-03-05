@@ -1,0 +1,46 @@
+/* 
+#RRGGBB  => 0-9a-f
+#000000 => black
+#ffffff => white
+#ff0000 => red
+#00ff00 => green
+#0000ff => blue
+#ffff01 => yellow
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#header{
+    background-color: #ffff01;
+    text-align: center;
+    padding: 10px;
+}
+
+#nav{
+    background-color: #848420;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+#left-content{
+    width: 20%;
+    background-color: #40b6cd;
+    float: left;
+    height: 200px;
+}
+
+#main-content{
+    height: 200px;
+    float: left;
+    width: 80%;
+    background-color: #c05ce4;
+}
+
+#footer{
+    text-align: center;
+    clear: both;
+    background-color: #69d283;
+    padding: 10px;
+}

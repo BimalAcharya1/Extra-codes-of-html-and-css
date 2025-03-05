@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="" method="" enctype="multipart/form-data" name="register" novalidate >
+        <label for="">Username</label>
+        <input type="text" placeholder="Enter username" name="username" value="Ram">
+        <br />
+        <label for="">Name</label>
+        <input type="text" name="name" placeholder="Enter name" required>
+        <br />
+        <label for="">Email</label>
+        <input type="email" name="email" placeholder="Enter email" />
+        <br />
+        <label for="">Program</label>
+        <select name="Program" id="program">
+            <option value="">Select Program</option>
+            <optgroup label="Humanities">
+                <option value="BCA">BCA</option>
+            </optgroup>
+            <optgroup label="Management">
+                <option value="BBA">BBA</option>
+            </optgroup>
+            <option value="BIT">BIT</option>
+        </select>
+        <br />
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender"> Female
+        <br />
+        <label for="">Games</label>
+        <input type="checkbox" name="games[]" value="Football">Football
+        <input type="checkbox" name="games[]" value="Cricket">Cricket
+        <br />
+        <label for="">Feeback</label>
+        <textarea name="Feeback" id=""></textarea>
+        <br />
+        <label for="Profile">Profile</label>
+        <input type="file">
+        <br />
+        <input type="submit" value="Regsiter">
+        <input type="reset" value="Clear">
+
+        <!-- <button type="button">Register </button> -->
+    </form>
+</body>
+</html>

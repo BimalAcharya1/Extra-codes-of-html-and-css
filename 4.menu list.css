@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{ 
+    /* display: inline-block; */
+    background-color: rgb(170, 153, 136);
+    list-style: none;
+    text-align: center;
+    width: 15%;
+    color: white;
+    border: 1px solid black;
+}
+
+ul li:hover{
+    background-color: rgb(102, 224, 255);
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
